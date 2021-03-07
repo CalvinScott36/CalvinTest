@@ -1,0 +1,20 @@
+C:\Users\scott\source\repos\Calvin Test\Calvin Test\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\scott\source\repos\Calvin Test\Calvin Test\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\scott\source\repos\Calvin Test\Calvin Test\bin\Debug\netcoreapp3.1\Calvin Test.exe
+C:\Users\scott\source\repos\Calvin Test\Calvin Test\bin\Debug\netcoreapp3.1\Calvin Test.deps.json
+C:\Users\scott\source\repos\Calvin Test\Calvin Test\bin\Debug\netcoreapp3.1\Calvin Test.runtimeconfig.json
+C:\Users\scott\source\repos\Calvin Test\Calvin Test\bin\Debug\netcoreapp3.1\Calvin Test.runtimeconfig.dev.json
+C:\Users\scott\source\repos\Calvin Test\Calvin Test\bin\Debug\netcoreapp3.1\Calvin Test.dll
+C:\Users\scott\source\repos\Calvin Test\Calvin Test\bin\Debug\netcoreapp3.1\Calvin Test.pdb
+C:\Users\scott\source\repos\Calvin Test\Calvin Test\obj\Debug\netcoreapp3.1\Calvin Test.csprojAssemblyReference.cache
+C:\Users\scott\source\repos\Calvin Test\Calvin Test\obj\Debug\netcoreapp3.1\Calvin Test.AssemblyInfoInputs.cache
+C:\Users\scott\source\repos\Calvin Test\Calvin Test\obj\Debug\netcoreapp3.1\Calvin Test.AssemblyInfo.cs
+C:\Users\scott\source\repos\Calvin Test\Calvin Test\obj\Debug\netcoreapp3.1\Calvin Test.csproj.CoreCompileInputs.cache
+C:\Users\scott\source\repos\Calvin Test\Calvin Test\obj\Debug\netcoreapp3.1\Calvin Test.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\scott\source\repos\Calvin Test\Calvin Test\obj\Debug\netcoreapp3.1\staticwebassets\Calvin Test.StaticWebAssets.Manifest.cache
+C:\Users\scott\source\repos\Calvin Test\Calvin Test\obj\Debug\netcoreapp3.1\staticwebassets\Calvin Test.StaticWebAssets.xml
+C:\Users\scott\source\repos\Calvin Test\Calvin Test\obj\Debug\netcoreapp3.1\scopedcss\bundle\Calvin Test.styles.css
+C:\Users\scott\source\repos\Calvin Test\Calvin Test\obj\Debug\netcoreapp3.1\Calvin Test.RazorTargetAssemblyInfo.cache
+C:\Users\scott\source\repos\Calvin Test\Calvin Test\obj\Debug\netcoreapp3.1\Calvin Test.dll
+C:\Users\scott\source\repos\Calvin Test\Calvin Test\obj\Debug\netcoreapp3.1\Calvin Test.pdb
+C:\Users\scott\source\repos\Calvin Test\Calvin Test\obj\Debug\netcoreapp3.1\Calvin Test.genruntimeconfig.cache
