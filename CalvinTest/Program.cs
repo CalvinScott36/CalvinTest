@@ -15,12 +15,16 @@ namespace CalvinTest
             var question3Answer = Question3PasswordsValid();
             var question4Answer = Question4PasswordsValid();
             var question5Answer = Question5SlopesAndTrees();
+            var listOfTrees = Question6SlopesAndTrees();
+            var question6 = listOfTrees.Aggregate(1, (x, y) => x * y);
+   
 
             Console.WriteLine($"Question  1 answer is  {question1Answer}");
             Console.WriteLine($"Question  2 answer is  {question2Answer}");
             Console.WriteLine($"Question  3 answer is  {question3Answer}");
             Console.WriteLine($"Question  4 answer is  {question4Answer}");
             Console.WriteLine($"Question  5 answer is  {question5Answer}");
+            Console.WriteLine($"Question  6 answer is  {question6}");
         }
 
         public static List<int> Question1ExpenseReports()
@@ -124,24 +128,46 @@ namespace CalvinTest
         {
             TestHelper testHelpers = new TestHelper();
             var Map = testHelpers.Question3DataList();
+            List<string> newMap = new List<string>();
             var trees = 0;
             var mapCoordinateRight = 3;
             var mapCoordinaterDown = 1;
             foreach (string location in Map)
             {
-                if(Map.IndexOf(location) == mapCoordinaterDown)
+                if(Map.IndexOf(location) != 0)
                 {
-                    char itemfound = location[mapCoordinateRight];
+                    char itemfound = location[mapCoordinateRight % 31];
                     if(itemfound == '#')
                     {
                         trees++;
                     }
-                    mapCoordinateRight = (location.Count() <= mapCoordinateRight + 3) ? 3 : mapCoordinateRight + 3;
-                    mapCoordinaterDown = Map.Count() <= mapCoordinaterDown + 1 ? mapCoordinaterDown = Map.Count() : mapCoordinaterDown + 1;
+                    mapCoordinaterDown += 1;
+                    mapCoordinateRight += 3;
+                }
+                
+            }
+            return trees;
+        }
+        public static List<int> Question6SlopesAndTrees()
+        {
+            TestHelper testHelpers = new TestHelper();
+            var Map = testHelpers.Question3DataList();
+            List<int> totalTrees = new List<int>();
+            var treesTotal = 1;
+            var mapCoordinateRight = 1;
+            var mapCoordinaterDown = 1;
+            foreach (string location in Map)
+            {
+                if (Map.IndexOf(location) != 0)
+                {
+                    char itemfound = location[mapCoordinateRight % 31];
+                    totalTrees.Add(location.Count(s => s == '#'));
+                    mapCoordinaterDown += 1;
+                    mapCoordinateRight += 2;
                 }
 
             }
-            return trees;
+            return totalTrees;
         }
     }
 
